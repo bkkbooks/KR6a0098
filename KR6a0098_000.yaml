@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6a0098/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 普法義經
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T01/T01n0098.xml
+    old_id: T01n0098
+hash: sha256:9656ac12cbf11b1094485b8fc0fc8030016c4536280cfcbd1e66fc261d355b44

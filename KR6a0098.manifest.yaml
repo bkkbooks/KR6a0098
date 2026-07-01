@@ -1,0 +1,54 @@
+canonical_identifier: bkk:krp/KR6a0098/v1
+canonical_location: https://kanripo.org/bkk/KR6a0098/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 普法義經
+  identifiers:
+    alt_id:
+    - T01n0098
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T01/T01n0098.xml
+    old_id: T01n0098
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 明
+  label: 明
+  source_xml_id: wit3
+- short: ？
+  label: ？
+  source_xml_id: wit4
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6a0098_000.yaml, hash: 'sha256:9656ac12cbf11b1094485b8fc0fc8030016c4536280cfcbd1e66fc261d355b44'}
+  - {seq: 1, filename: KR6a0098_001.yaml, hash: 'sha256:f27cc1fc50f8d4d167ad7d74b288653b52a36cf27388111fa7002bdacd47c181'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6a0098_001.markers.yaml, hash: 'sha256:3cfb293722bc2f088fec2013797f10cca1c29fa1d39afa56c221b9356003ff0c'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6a0098_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 3587
+  label: 佛說普法義經
+  type: juan
+  level: 1
+hash: sha256:6dc003376837f42e023c925503dd31dba96e83b202dfdf02b5ecec16c26b18fc
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
